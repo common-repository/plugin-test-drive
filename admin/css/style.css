@@ -1,0 +1,120 @@
+.plugin-tested-message {
+	background-color:#FFF;
+	-moz-border-radius:5px;
+	font-weight:700;
+	border-style:solid;
+	border-width:1px;
+	margin:5px;
+	padding:3px 5px;
+}
+
+.tested, .tested td,.tested th, .plugin-tested, .empty-cell , .tested div.second{
+	background-color:#FFC!important;
+}
+
+.name {
+	color:#3b942d;
+}
+
+.form-table a, .form-table span, .form-table div, .form-table td, .form-table li {
+	font-size:13px!important;
+}
+
+th {
+	font-weight:700!important;
+}
+
+.clickable {
+	color:#21759B!important;
+	text-decoration:underline!important;
+	cursor:pointer;
+}
+
+.clickable:hover {
+	color:#D54E21!important;
+}
+
+.form-table {
+	margin-bottom:15px;
+}
+
+#right {
+	color:#057B09;
+	font-weight:700;
+}
+
+#wrong {
+	color:#BC0000;
+	font-weight:700;
+}
+
+#blankRow {
+	padding-bottom:0!important;
+}
+
+#ptd-form {
+	position:relative;
+}
+
+#set-to-current {
+	color:#D4D0C8;
+	text-decoration:none;
+	margin-left:8px;
+}
+
+#method-error {
+	left:215px;
+	position:absolute;
+	top:105px;
+}
+
+input[type="checkbox"] {
+	margin-right:10px;
+}
+
+.ptd-message{
+	background-color:#f6fdff!important;
+	border-color:#004f69!important;
+}
+
+.ptd-message, .ptd-message p{
+	font-size:14px!important;
+}
+
+.error-submit {
+	display:none;
+	color:red;
+	margin-left:10px;
+}
+
+.no-submit {
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+
+.ptd-active-plug {
+	color:#908f8d;
+}
+
+.field-titles {
+	width:auto!important; /*for IE7*/
+}
+
+.form-table td {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.form-table b {
+	padding-right:20px;
+}
+
+.ptd-invalid {
+	color:red;
+	text-decoration:line-through;
+}
+
+.ptd-untestable {
+	color:blue;
+	text-decoration:line-through;
+}

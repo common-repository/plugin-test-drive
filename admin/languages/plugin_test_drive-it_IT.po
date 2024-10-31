@@ -1,0 +1,244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin Test Drive\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-15 13:55+0100\n"
+"PO-Revision-Date: 2010-11-15 15:15+0100\n"
+"Last-Translator: Guter <guterboit@gmail.com>\n"
+"Language-Team: Guter <guterboit@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/options.php:14
+#@ plugin_test_drive
+msgid "Plugin Test Drive Options"
+msgstr "Plugin Test Drive: Opzioni"
+
+#: admin/options.php:18
+#@ plugin_test_drive
+msgid "Choose the tester key (using this key, Plugin Test Drive will recognize you and load the plugins for you only):"
+msgstr "Scegliere la chiave del tester (utilizzando questa chiave, Plugin Test Drive ti riconoscerà e attiverà i plugin solo per te):"
+
+#: admin/options.php:28
+#@ plugin_test_drive
+msgid "set to your IP address"
+msgstr "imposta il tuo indirizzo IP"
+
+#: admin/options.php:33
+#@ plugin_test_drive
+msgid "View preference:"
+msgstr "Visuale:"
+
+#: admin/options.php:35
+#@ plugin_test_drive
+msgid "Split to columns"
+msgstr "Divisa in colonne"
+
+#: admin/options.php:43
+#@ plugin_test_drive
+msgid "Select plugins for testing:"
+msgstr "Seleziona i plugin da testare:"
+
+#: admin/options.php:47
+#@ plugin_test_drive
+msgid "Click to check All"
+msgstr "Clicca per selezionarli tutti"
+
+#: admin/options.php:115
+#@ plugin_test_drive
+msgid "Notes"
+msgstr "Note"
+
+#: admin/options.php:118
+#@ plugin_test_drive
+msgid "Make sure to include \"if_function_exists()\" in any plugin function you add:"
+msgstr "Assicurati di inserire \"if_function_exists()\" in ogni funzione del plugin che aggiungi:"
+
+#: admin/options.php:119
+#@ plugin_test_drive
+msgid "Wrong"
+msgstr "Errato"
+
+#: admin/options.php:120
+#@ plugin_test_drive
+msgid "Right"
+msgstr "Corretto"
+
+#: admin/options.php:129
+#@ default
+msgid "Save Changes"
+msgstr "Salva"
+
+#: admin/options.php:130
+#@ plugin_test_drive
+msgid "Please enter a valid IP address."
+msgstr "Inserire un indirizzo IP valido."
+
+#: admin/main.php:43
+#: admin/plugins_page.php:9
+#@ plugin_test_drive
+msgid "IP address"
+msgstr "indirizzo IP"
+
+#: admin/main.php:44
+#: admin/plugins_page.php:12
+#@ plugin_test_drive
+msgid "user name"
+msgstr "nome utente"
+
+#: admin/main.php:45
+#@ plugin_test_drive
+msgid "set to your"
+msgstr "imposta il tuo"
+
+#: admin/main.php:46
+#@ plugin_test_drive
+msgid "Please Enter a valid IP Address"
+msgstr "Inserire un indirizzo IP valido"
+
+#: admin/main.php:47
+#@ plugin_test_drive
+msgid "Tester key is mandatory"
+msgstr "La chiave del tester è obbligatoria"
+
+#: admin/main.php:48
+#@ plugin_test_drive
+msgid "Click to check all"
+msgstr "Clicca per selezionarli tutti"
+
+#: admin/main.php:49
+#@ plugin_test_drive
+msgid "Click to uncheck all"
+msgstr "Clicca per deselezionare tutto"
+
+#: admin/options.php:20
+#@ plugin_test_drive
+msgid "Tester key:"
+msgstr "La chiave del tester:"
+
+#: admin/options.php:88
+#@ plugin_test_drive
+msgid "Remove invalid flag"
+msgstr "Rimuovi la segnalazione <i>non valido</i>"
+
+#: admin/options.php:95
+#@ plugin_test_drive
+msgid "Remove untestable flag"
+msgstr "Rimuovi la segnalazione <i>non testabil</i>"
+
+#: admin/options.php:188
+#@ default
+msgid "The plugin generated unexpected output."
+msgstr ""
+
+#: admin/options.php:206
+#@ plugin_test_drive
+msgid "<div class=\"ptd-message updated\"><p>Plugin Test Drive has updated your tested plugins list. You can also check their status in <a href=\"plugins.php\">plugins page</a></p></div>"
+msgstr "<div class=\"ptd-message updated\"><p>Plugin Test Drive ha aggiornato la lista dei tuoi plugin testati. Puoi anche verificarne lo stato nella <a href=\"plugins.php\">pagina dei plugin</a></p></div>"
+
+#: admin/options.php:117
+#@ plugin_test_drive
+msgid "Active plugins cannot be selected for testing. Only inactive plugins can be tested"
+msgstr "I plugin attivi non possono essere selezionati. Solo i plugin inattivi possono essere testati"
+
+#: admin/options.php:121
+#@ plugin_test_drive
+msgid "Invalid plugins (plugins with malfunctioned code) cannot be tested."
+msgstr "Plugin non validi (plugin con codici malfunzionanti) non possono essere testati."
+
+#: admin/options.php:122
+#@ plugin_test_drive
+msgid "Untestable plugins (rare, <a href=\"http://www.webtechwise.com/plugin-test-drive#untestable\">read more</a>"
+msgstr "Plugin non testabile (raro, <a href=\"http://www.webtechwise.com/plugin-test-drive#untestable\">per saperne di più</a>"
+
+#: admin/options.php:123
+#@ plugin_test_drive
+msgid "In case you upgraded/fixed the plugin, click on \"Remove invalid flag\"/\"Remove untestable plugin\" to enable plugin selection."
+msgstr "Se effettui un upgrade o fixi il plugin, clicca su \"Rimuovi la segnalazione non valido\"/\"Rimuovi la segnalazione non testabile\" per abilitare la selezione del plugin."
+
+#: admin/options.php:284
+#@ plugin_test_drive
+msgid "therefore, it cannot be tested."
+msgstr "quindi non può essere testato."
+
+#: admin/options.php:279
+#@ plugin_test_drive
+msgid "has been flagged as untestable by Plugin Test Drive.  <a href=\"http://www.webtechwise.com/plugin-test-drive#untestable\">click here</a> to read more."
+msgstr "è stato segnato come \"non testabile\" da Plugin Test Drive. <a href=\"http://www.webtechwise.com/plugin-test-drive#untestable\">Clicca qui</a> per saperne di più."
+
+#: admin/options.php:284
+#@ plugin_test_drive
+msgid "Plugin Test Drive has detected an error in "
+msgstr "Plugin Test Drive ha individuato un errore nel plugin "
+
+#: admin/plugins_page.php:15
+#@ plugin_test_drive
+msgid "(<u>your</u> "
+msgstr "(<u>la tua</u> "
+
+#: admin/plugins_page.php:17
+#@ plugin_test_drive
+msgid " is loaded by "
+msgstr " è stato attivato da "
+
+#: admin/plugins_page.php:17
+#@ plugin_test_drive
+msgid " for "
+msgstr " per "
+
+#: admin/plugins_page.php:17
+#@ plugin_test_drive
+msgid "only. "
+msgstr "solo. "
+
+#: admin/plugins_page.php:17
+#@ plugin_test_drive
+msgid "Stop testing "
+msgstr "interrompere le prove "
+
+#: admin/options.php:270
+#@ plugin_test_drive
+msgid "Just to let you know, Plugin Test Drive has detected that "
+msgstr "Per tua conoscenza, Plugin Test Drive ha notato che "
+
+#: admin/options.php:270
+#, php-format
+#@ plugin_test_drive
+msgid " has generated %d characters of <strong>unexpected output</strong> during activation.<br />However, PTD decided to flag it as valid and test it anyway."
+msgstr "ha generato %d caratteri di <strong>output inaspettato</strong> durante l'attivazione. <br /> Comunque, PTD ha deciso di reputarlo valido e testarlo ugualmente."
+
+#: admin/plugins_page.php:15
+#@ plugin_test_drive
+msgid "However, <u>your</u> "
+msgstr "Comunque, <u>la tua</u> "
+
+#: admin/plugins_page.php:15
+#@ plugin_test_drive
+msgid " is "
+msgstr " è "
+
+#: admin/main.php:13
+#@ plugin_test_drive
+msgid "Test Plugin"
+msgstr "Test Plugin"
+
+#: admin/options.php:125
+#@ plugin_test_drive
+msgid "If you like Plugin Test Drive, <a href=\"http://wordpress.org/extend/plugins/plugin-test-drive/\">support by voting here</a>"
+msgstr "Se ti piace Plugin Test Drive, <a href=\"http://wordpress.org/extend/plugins/plugin-test-drive/\">dai il tuo sostegno votando qui</a>"
+
+#: admin/options.php:126
+#@ plugin_test_drive
+msgid "For any questions, requests or feeback refer to the <a href=\"http://www.webtechwise.com/plugin-test-drive/\">plugin page</a>"
+msgstr "Per eventuali domande, richieste o feedback consultare <a href=\"http://www.webtechwise.com/plugin-test-drive/\">la pagina del plugin</a>"
+

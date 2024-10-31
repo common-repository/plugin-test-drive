@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin Test Drive\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-15 13:55+0100\n"
+"PO-Revision-Date: 2010-11-15 15:21+0100\n"
+"Last-Translator: Guter <guterboit@gmail.com>\n"
+"Language-Team: Omer&Guter <omer@webtechwise.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/options.php:12
+msgid "Plugin Test Drive Options"
+msgstr ""
+
+#: admin/options.php:16
+msgid "Choose the tester key (using this key, Plugin Test Drive will recognize you and load the plugins for you only):"
+msgstr ""
+
+#: admin/options.php:18
+msgid "Tester key"
+msgstr ""
+
+#: admin/options.php:20
+msgid "By IP Address"
+msgstr ""
+
+#: admin/options.php:21
+msgid "By User Name"
+msgstr ""
+
+#: admin/options.php:26
+msgid "set to your IP address"
+msgstr ""
+
+#: admin/options.php:31
+msgid "View preference:"
+msgstr ""
+
+#: admin/options.php:33
+msgid "Split to columns"
+msgstr ""
+
+#: admin/options.php:41
+msgid "Select plugins for testing:"
+msgstr ""
+
+#: admin/options.php:45
+msgid "Click to check All"
+msgstr ""
+
+#: admin/options.php:106
+msgid "Notes"
+msgstr ""
+
+#: admin/options.php:108
+msgid "* Active plugins cannot be selected for testing. Only inactive plugins can be tested."
+msgstr ""
+
+#: admin/options.php:109
+msgid "Make sure to include \"if_function_exists()\" in any plugin function you add:"
+msgstr ""
+
+#: admin/options.php:110
+msgid "Wrong"
+msgstr ""
+
+#: admin/options.php:110
+msgid "&lt;?php some_plugin_function(); ?&gt;"
+msgstr ""
+
+#: admin/options.php:111
+msgid "Right"
+msgstr ""
+
+#: admin/options.php:112
+msgid "** Invalid plugins (plugins with malfunctioned code) cannot be tested."
+msgstr ""
+
+#: admin/options.php:112
+msgid "In case you upgraded/fixed the plugin, click on \"Remove invalid flag\" to enable plugin selection."
+msgstr ""
+
+#: admin/options.php:115
+msgid "Save Changes"
+msgstr ""
+
+#: admin/options.php:116
+msgid "Please enter a valid IP address."
+msgstr ""
+
